@@ -1,0 +1,647 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap');
+body{
+max-width: 1349px;
+width: 1349px;
+margin:0 auto;
+font-family: 'Roboto', sans-serif;
+}
+.qatalog_back{
+    height: 80px;
+width: 1349px;
+background-color:#292929;
+}
+.qatalog_img{
+position: absolute;
+top: 20px;
+left: 40px;
+}
+.work{
+width: 85px;
+height: 40px;
+position: absolute;
+right: 330px;
+top: 20px;
+background-color:#292929;
+border:none;
+color:white;
+}
+.qatalog_login{
+width: 41px;
+height: 24px;
+position: absolute;
+right: 220px;
+top: 30px;
+text-decoration: none;
+color:white;
+}
+.qatalog_button{
+width: 136px;
+height: 48px;
+position: absolute;
+right: 30px;
+top: 16px;
+background-color: blue;
+border-radius: 15px;
+border:none;
+}
+.qatalog_button>a{
+color:white;
+text-decoration: none;
+}
+.sect1{
+width: 1349px;
+height: 1683px;
+background-color:#292929;
+}
+.sect1_div_text{
+width: 769px;
+height: 144px;
+background-color: #292929;
+position: absolute;
+left: 290px;
+top: 146px;
+}
+.sect1_text{
+font-family: roboto;
+font-size:40px;
+color:white;
+}
+.sect1_div_img>a>img{
+height: 506px;
+width: 1209px;
+background-color: #292929;
+position: absolute;
+right: -220px;
+top: 200px;
+}
+.alone{
+position: absolute;
+font-size: 40px;
+color:white;
+top: 900px;
+left: 250px;
+
+}
+.pains{
+font-size: 30px;
+color:grey;
+position: absolute;
+top: 950px;
+left: 220px;
+}
+.card1{
+width: 373px;
+height: 390px;
+background-color: #555151;
+border-radius: 20px;
+position: absolute;
+top: 1000px;
+left: 190px;
+}
+.card2{
+width: 373px;
+height: 390px;
+background-color: #555151;
+border-radius: 20px;
+position: absolute;
+top: 1000px;
+left: -220px;
+}
+.card3{
+width: 373px;
+height: 390px;
+background-color: #555151;
+border-radius: 20px;
+position: absolute;
+top: 1000px;
+right:-205px;
+}
+.card2>a>img{
+margin:15px 0 0 15px;
+}
+.card2>span{
+font-size:28px;
+position: absolute;
+top: 80px;
+left: 20px;
+color:#949494;
+}
+.Francesca{
+position: absolute;
+top: 255px;
+font-size: 20px;
+left: 10px;
+color:#949494;
+}
+.EMEA{
+position: absolute;
+top: 280px;
+font-size:20px;
+left: 10px;
+color:#949494;
+}
+.card2:hover{
+background-color: #1cffe4;
+transition: 1s;
+}
+.card1>a>img{
+margin: 15px 0 0 15px;
+}
+.card1>span{
+    font-size:32px;
+    position: absolute;
+    top: 80px;
+    left: 15px;
+
+    color:#949494;
+}
+.Fabrizio{
+    position: absolute;
+    top: 255px;
+    font-size: 24px;
+    left: 10px;
+    color:#949494;  
+}
+.Product{
+    position: absolute;
+    top: 280px;
+    font-size:24px;
+    left: 10px;
+    color:#949494;  
+}
+.card1:hover{
+    background-color: #555151;
+    transition: 1s;
+}
+.card3>a>img{
+margin:15px 0 0 15px;
+}
+.card3>span{
+    font-size:28px;
+    position: absolute;
+    top: 100px;
+    left: 15px;
+    color:#949494;
+}
+.Patrick{
+    position: absolute;
+    top: 255px;
+    font-size: 24px;
+    left: 10px;
+    color:#949494;  
+}
+.Vice{
+    position: absolute;
+    top: 280px;
+    font-size:24px;
+    left: 10px;
+    color:#949494;   
+}
+.card3:hover{
+    background-color: #1cffe4;
+    transition: 1s;
+}
+.point1{
+width: 23px;
+height: 8px;
+background-color: white;
+border-radius: 100px;
+position: absolute;
+top: 1500px;
+left: 370px;
+}
+.point2{
+width: 8px;
+height: 8px;
+border-radius: 50%;
+background-color: #4b4848;
+position: absolute;
+top: 1500px;
+left: 350px;
+}
+.point3{
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background-color: #4b4848;
+    position: absolute;
+    top: 1500px;
+    left: 405px;
+}
+.sect2{
+width: 1349px;
+height: 3400px;
+background-color: #292929;
+}
+.teams{
+position: absolute;
+left: 200px;
+}
+.front-page{
+font-size:45px;
+position: absolute;
+top: 2450px;
+left: 400px;
+color:white;
+}
+.front-page2{
+font-size: 35px;
+color: #4b4848;
+position: absolute;
+top: 2520px;
+left: 530px;
+}
+.front-img{
+position: absolute;
+top: 2600px;
+left: 350px;
+z-index: 1;
+}
+.front-img2{
+position: absolute;
+top: 2550px;
+left: 365px;  
+z-index: 0;  
+}
+.work-hub-text{
+font-size:45px;
+position: absolute;
+top: 3250px;
+left: 350px;
+color:white;
+}
+.card4{
+    width: 373px;
+    height: 130px;
+    background-color: #555151;
+    border-radius: 20px;
+    position: absolute;
+    top: 3350px;
+    left: 85px;
+}
+.card5{
+    width: 373px;
+    height: 130px;
+    background-color: #555151;
+    border-radius: 20px;
+    position: absolute;
+    top: 3350px;
+    left: 490px;
+}
+.card6{
+    width: 373px;
+    height: 130px;
+    background-color: #555151;
+    border-radius: 20px;
+    position: absolute;
+    top: 3350px;
+    left: 895px;
+}
+.card4>a>img{
+margin:27px 0 0 25px;
+}
+.card4direct{
+    font-size: 24px;
+    color:white;
+position: absolute;
+left: 130px;
+top: 25px;  
+}
+.card4text{
+position: absolute;
+left: 130px;
+top: 40px;
+font-size: 20px;
+color:gray;
+}
+.card5>a>img{
+margin: 27px 0 0 25px;
+}
+.card6>a>img{
+    margin: 27px 0 0 25px;
+}
+.card7{
+    width: 373px;
+    height: 130px;
+    background-color: #555151;
+    border-radius: 20px;
+    position: absolute;
+    top: 3550px;
+    left: 85px;
+
+}
+.card8{
+    width: 373px;
+    height: 130px;
+    background-color: #555151;
+    border-radius: 20px;
+    position: absolute;
+    top: 3550px;
+    left: 490px;
+}
+.card9{
+    width: 373px;
+    height: 130px;
+    background-color: #555151;
+    border-radius: 20px;
+    position: absolute;
+    top: 3550px;
+    left: 895px;
+}
+.card7>a>img{
+    margin: 27px 0 0 25px;
+}
+.card8>a>img{
+    margin: 27px 0 0 25px;
+}
+.card9>a>img{
+    margin: 27px 0 0 25px;
+}
+.secure{
+color:white;
+font-size: 45px;
+position: absolute;
+top: 3800px;
+left: 505px;
+}
+.printdiv>a>img{
+    height: 70px;
+    width: 70px;
+    position: absolute;
+    top: 3930px;
+    left: 260px;
+}
+.printtext{
+position: absolute;
+top: 4025px;
+left: 185px;
+color:gray;
+font-size: 20px;
+}
+.keydiv>a>img{
+    height: 70px;
+    width: 70px;
+    position: absolute;
+    top: 3930px;
+    left: 625px;
+}
+.keytext{
+    position: absolute;
+    top: 4025px;
+    left: 600px;
+    color:gray;
+    font-size: 25px;
+}
+.lockdiv>a>img{
+    height: 70px;
+    width: 130px;
+    position: absolute;
+    top: 3930px;
+    left: 1000px;
+}
+.locktext{
+    position: absolute;
+    top: 4025px;
+    left: 990px;
+    color:gray;
+    font-size: 25px;
+}
+.peopleimg{
+    position: absolute;
+top: 4200px;
+}
+.miss{
+width: 800px;
+height: 150px;
+position: absolute;
+top: 5000px;
+left: 330px;
+}
+.misstext{
+font-size: 40px;
+color:white;
+}
+.button{
+    font-size: 35px;
+    border-radius: 100px;
+position: absolute;
+top: 5100px;
+left: 500px;
+background-color: blue;
+color:white;
+border:none;
+text-decoration: none;
+}
+.foot{
+width: 1349px;
+height: 1000px;
+background-color: #292929;
+}
+.partner{
+font-size: 30px;
+color:white;
+position: absolute;
+top: 5280px;
+left: 585px;
+}
+.micros{
+height: 40px;
+width: 40px;
+position: absolute;
+top: 5350px;
+left: 400px;
+}
+.github{
+height: 40px;
+width: 40px;
+position: absolute;
+top: 5350px;
+left: 500px;
+}
+.gmail{
+    height: 40px;
+    width: 60px;
+    position: absolute;
+    top: 5350px;
+    left: 600px;
+}
+.fox{
+    height: 40px;
+    width: 50px;
+    position: absolute;
+    top: 5350px;
+    left: 700px; 
+}
+.balls{
+    height: 25px;
+    width: 40px;
+    position: absolute;
+    top: 5360px;
+    left: 800px; 
+}
+.box{
+    height: 25px;
+    width: 40px;
+    position: absolute;
+    top: 5360px;
+    left: 900px; 
+}
+.product{
+position: absolute;
+top: 5550px;
+font-size: 23px;
+left: 600px;
+list-style-type: none;
+}
+.product>a>li{
+margin:30px 0 0 0;
+}
+.product>span{
+color:black;
+font-size: 40px;
+}
+.company{
+    position: absolute;
+    top: 5550px;
+    font-size: 23px;
+    left: 800px;
+    list-style-type: none;
+}
+.company>a>li{
+margin:30px 0 0 0;
+}
+.company>span{
+color:black;
+font-size: 40px;
+}
+.company>a{
+text-decoration: none;
+color:white;
+}
+.product>a{
+text-decoration: none;
+color:white;
+}
+.resources{
+    position: absolute;
+    top: 5550px;
+    font-size: 23px;
+    left: 1000px;
+    list-style-type: none;
+}
+.resources>a>li{
+margin:30px 0 0 0;
+}
+.resources>span{
+color:black;
+font-size: 40px;
+}
+.resources>a{
+text-decoration: none;
+color:white;
+}
+.foothta{
+position: absolute;
+top: 5650px;
+left: 100px;
+}
+.cloud{
+position: absolute;
+top: 5850px;
+left: 100px;
+}
+.salesforce{
+position: absolute;
+top: 5865px;
+left: 109px;
+color:white;
+}
+.ventures{
+position: absolute;
+top: 5855px;
+left: 180px;
+color:white;
+font-size: 30px;
+}
+.ventures2{
+position: absolute;
+top: 5862px;
+left: 290px;
+color:gray;
+font-size: 24px;
+}
+.copyright{
+position: absolute;
+top: 6100px;
+left: 100px;
+color:gray;
+}
+.icons{
+height: 70px;
+width: 400px;
+background-color: #292929;
+position: absolute;
+top: 6050px;
+left: 900px;
+}
+.icons>a>img{
+height: 30px;
+width: 30px;
+margin:40px 40px 0 0;
+}
+.terms{
+color:gray;
+position: absolute;
+top: 6095px;
+left: 730px;
+font-size: 20px;
+}
+.police{
+color:gray;
+position: absolute;
+top: 6095px;
+left: 580px;
+font-size: 20px;
+}
+.resources>a>li:hover{
+text-decoration: underline;
+}
+.product>a>li:hover{
+    text-decoration: underline;
+    }
+    .company>a>li:hover{
+        text-decoration: underline;
+        }
+.card4text:hover{
+text-decoration: underline;
+}
+.card4:hover{
+background-color: aqua;
+}
+.card5:hover{
+background-color: aqua;
+}
+.card6:hover{
+background-color: aqua;
+}
+.card7:hover{
+background-color: aqua;
+}
+.card8:hover{
+background-color: aqua;
+}
+.card9:hover{
+ background-color: aqua;
+  }
+  .card1:hover{
+background-color: aqua;
+  }
+  .printtext:hover{
+text-decoration: white underline;
+  }
+  .locktext:hover{
+    text-decoration: white underline;
+  }
+  .keytext:hover{
+    text-decoration: white underline;
+  }
